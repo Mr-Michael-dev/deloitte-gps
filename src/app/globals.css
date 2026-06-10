@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Deloitte Brand Colors */
+  --color-deloitte-green: #86BC25;
+  --color-deloitte-green-dark: #00601A;
+  --color-deloitte-green-light: #C4D600;
+  --color-deloitte-black: #000000;
+  --color-deloitte-dark-gray: #53565A;
+  --color-deloitte-mid-gray: #97999B;
+  --color-deloitte-light-gray: #D0D0CE;
+  --color-deloitte-off-white: #F5F5F5;
+  --color-deloitte-white: #FFFFFF;
+
+  /* Semantic aliases */
+  --color-primary: var(--color-deloitte-green);
+  --color-primary-dark: var(--color-deloitte-green-dark);
+  --color-foreground: var(--color-deloitte-black);
+  --color-muted: var(--color-deloitte-dark-gray);
+  --color-border: var(--color-deloitte-light-gray);
+  --color-background: var(--color-deloitte-white);
+  --color-surface: var(--color-deloitte-off-white);
+
+  /* Typography */
+  --font-sans: var(--font-geist-sans), "Open Sans", Arial, Helvetica, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+:root {
+  --background: var(--color-deloitte-white);
+  --foreground: var(--color-deloitte-black);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

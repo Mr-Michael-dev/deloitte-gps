@@ -56,11 +56,11 @@ export default function HowItWorks() {
         <div className="mx-auto w-[90%] lg:w-4/5 pb-20 pt-16 md:pb-28 md:pt-24">
 
           {/* Heading */}
-          <div className="mb-10 md:mb-12">
-            <h2 className="text-3xl font-bold leading-tight tracking-tight text-white md:text-4xl lg:text-[2.75rem]">
+          <div className="mb-10 md:mb-12 text-center md:text-left">
+            <h2 className="text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl">
               How It Works
             </h2>
-            <p className="mt-3 max-w-xl text-base leading-relaxed text-white/80 md:text-[0.9375rem]">
+            <p className="mt-3 max-w-xl text-base leading-relaxed text-white/80 md:text-[0.9375rem] mx-auto md:mx-0">
               VendorConnect is designed to make federal subcontracting straightforward, even if it&apos;s your first time working with a prime contractor of Deloitte&apos;s scale.
             </p>
           </div>
@@ -70,7 +70,7 @@ export default function HowItWorks() {
             {steps.map((step, i) => (
               <div
                 key={step.number}
-                className={`transition-all duration-500 ease-out ${
+                className={`text-center md:text-left transition-all duration-500 ease-out ${
                   visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
                 }`}
                 style={{ transitionDelay: visible ? `${i * 100}ms` : "0ms" }}

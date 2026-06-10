@@ -21,7 +21,7 @@ export default function Hero() {
           </span>
 
           {/* Heading — fluid scale across all breakpoints */}
-          <h1 className="text-[2rem] sm:text-[2.5rem] lg:text-[3rem] xl:text-[3.75rem] 2xl:text-[4.5rem]
+          <h1 className="text-[2.75rem] sm:text-[2.5rem] lg:text-[3rem] xl:text-[3.75rem] 2xl:text-[4.5rem]
                          font-bold text-deloitte-black leading-[1.05] tracking-tight
                          mb-5 md:mb-7 lg:mb-8">
             Collaborate with <span className="text-[#008818]">Deloitte,</span><br />

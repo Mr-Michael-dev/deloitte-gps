@@ -6,7 +6,7 @@ import Link from "next/link"
 const vendorGuideItems = [
   { label: "Core Services", href: "#core-services" },
   { label: "Vendor Code of Conduct", href: "#vendor-code-of-conduct" },
-  { label: "Vendor Registration", href: "#vendor-registration" },
+  { label: "How It Works", href: "#how-it-works" },
 ]
 
 // Base classes shared by every nav link

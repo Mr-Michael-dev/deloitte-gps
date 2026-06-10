@@ -65,11 +65,11 @@ export default function FaqSection({
 
   return (
     <section id="faq" className="bg-deloitte-white py-16 sm:py-20">
-      <div className="mx-auto w-4/5 grid grid-cols-[1fr_1.7fr] gap-16">
+      <div className="mx-auto w-4/5 grid grid-cols-1 gap-10 md:grid-cols-[1fr_1.7fr] md:gap-16">
 
         {/* Left column — title block */}
         <div className="pt-2">
-          <h2 className="whitespace-pre-line text-4xl font-bold tracking-tight text-deloitte-black md:text-5xl">
+          <h2 className="whitespace-pre-line text-3xl font-bold tracking-tight text-deloitte-black sm:text-4xl md:text-5xl">
             {title}
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-deloitte-dark-gray">{subtitle}</p>
